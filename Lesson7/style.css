@@ -1,0 +1,17 @@
+body{
+    background-color: lightskyblue;
+}
+
+p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: indigo;
+}
+.text
+{
+    color: darkblue;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    
+}

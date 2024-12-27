@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Styling by CSS</title>
+    <style>
+        table{ border: 1px blue solid ;
+        }
+        h4{  
+            
+            font-family: 'Courier New', Courier, monospace;
+        }
+        #typo
+        { 
+            
+            font-size: 12px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        #mydiv
+        {color:blueviolet;
+            transform: rotate(180deg);
+        }
+        #p1{
+            
+            text-decoration: overline;
+            text-transform: capitalize;
+        }
+        #p2{
+            text-decoration: underline;
+            text-transform: uppercase;
+        }
+        #p3{
+            text-decoration: line-through;
+            text-transform: lowercase;
+        }
+        #p4{
+            text-decoration:double underline;
+            text-transform:none;
+        }
+        h2{
+            color: brown;
+            text-shadow: 2px 2px 1px gray;
+        }
+        h3{
+            background-color: chartreuse;
+            box-shadow: 9px 9px 5px slategray;
+        }
+        #check{
+            content: ' \00A7' ;
+        }
+    </style>
+</head>
+<body>
+    <h2>Text Styling in CSS </h2>
+    <table width="100%">
+        <tr>
+        <td>Typography</td>
+        <td> <h4>Welcome to Codingal</h4>
+        <p id="typo">Welcome to Codingal</p></td>
+    </tr>
+    <tr>
+        <td>Transform</td>
+        <td><div id="mydiv">Transform</div></td>
+    </tr>
+    <tr>
+        <td><p id="p1">codIngal</p>
+            <p id="p2">Codingal</p></td>
+        <td><p id="p3">Codingal</p>
+            <p id="p4">Codingal</p></td>
+    </tr>
+    <tr>
+        <td><h2>text shadow</h2></td>
+        <td><h3>box shadow</h3></td>
+    </tr>
+    </table>
+
+    <a id="check" href="#"> Hi</a>
+</body>
+</html>

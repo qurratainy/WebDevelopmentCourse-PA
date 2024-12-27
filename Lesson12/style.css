@@ -1,0 +1,49 @@
+body{
+    background-color: lightcyan;
+    color: orangered;
+}
+/* Attribute Selector*/
+ul{
+background-color: aquamarine;
+}
+
+/* Child Selector*/
+ul > li
+{
+color: blue;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Sibling Selector*/
+h1 ~ p {
+    color:brown;
+}
+
+/* Pseudo Classes*/
+ul li:hover
+{
+    background-color: yellow;
+}
+a:hover{
+    color: maroon;
+}
+/* Pseudo Element*/
+ul li::before
+{
+    content:url("https://api.iconify.design/bi/rocket-fill.svg?height=12&color=blue")
+}
+a::before
+{
+    content: url("https://api.iconify.design/bi/star-fill.svg?height=12&color=blue");
+}
+p::first-letter
+{
+    color: purple;
+    font-size: 28px;
+}
+
+
+
+
+
+

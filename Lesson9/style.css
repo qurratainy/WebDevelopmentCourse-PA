@@ -1,0 +1,19 @@
+*{ 
+    background-color: aqua;
+    color: Orange;
+    font-size: 18pt;
+    font-family: Calibri;
+}
+
+#detail{
+    color:red;
+    font-family: Verdana;
+    font-size: 20px;
+}
+
+.para{
+    color:green;
+    font-size: 14pt;
+    font-style: italic;
+}
+
