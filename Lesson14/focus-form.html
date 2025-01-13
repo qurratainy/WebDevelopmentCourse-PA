@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        
+        form {
+            box-shadow: 0 1px 3px rgba(50, 50, 93, .15), 0 1px 0 blue;
+            border: 1px solid gray;
+            background-color: Cyan;
+        }
+        input[type=text],
+        input[type=password],
+        input[type=email]
+        {
+            width: 100%;
+            display: inline-block;
+            border: 1px solid blue;
+            box-sizing: border-box;
+       }
+        input:focus {
+            background-color:yellow;
+        }
+        button {
+            background-color:blue;
+            color: #FFF;
+            border: none;
+            cursor: pointer;
+           
+                
+        }
+    </style>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form>
+        <div class="container">
+            <label>Username</label>
+            <input type="text" name="uname" required placeholder="Enter your name"><br>
+            <label> Email </label><br>
+            <input type="email" name="email" required>
+            <br>
+            <label>Password</label>
+            <input type="password" name="pass" required>
+            <button type="submit">Sign in</button>
+        </div>
+    </form>
+
+</body>
+</html>
