@@ -1,8 +1,5 @@
 function clr()
-{
-    document.getElementById("result").value = " ";
-}
-
+{    document.getElementById("result").value = " ";  }
 function addtext(val)
 {
     if (val == '0'|| val == '1'||
@@ -16,7 +13,6 @@ function addtext(val)
         document.getElementById("result").value += val
     }
 }
-
 function solve()
 {
     let x = document.getElementById("result").value ;
