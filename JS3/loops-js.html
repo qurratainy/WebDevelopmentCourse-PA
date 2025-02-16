@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loop - Javascript</title>
+</head>
+<body>
+   <h1>Loop in JS</h1>
+   <p id="demo1"></p>
+   <p id="demo2"></p>
+   
+   <script>
+    var fruit = ["Mango","Banana","Orange","Watermelon","Grapes"]
+    var text = '';
+    var i ;
+    for (i=0; i<fruit.length; i++) //i++ means i=i+1
+    {
+       text += fruit[i] + "<br>" 
+    }
+    document.getElementById("demo1").innerHTML=text
+
+    i = 0;
+    while(i<20)
+    {
+        document.getElementById("demo2").innerHTML += i
+        document.getElementById("demo2").innerHTML +="<br>"
+        i++;
+        if(i==19)
+        break;
+    }
+   </script>
+
+</body>
+</html>
